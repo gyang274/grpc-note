@@ -1,0 +1,33 @@
+jetadmin@q2-pfx-gpu-vm0:~$                bash install_nvm.sh
+=> Downloading nvm from git to '/home/jetadmin/.nvm'
+=> Cloning into '/home/jetadmin/.nvm'...
+remote: Counting objects: 267, done.
+remote: Compressing objects: 100% (242/242), done.
+remote: Total 267 (delta 31), reused 86 (delta 15), pack-reused 0
+Receiving objects: 100% (267/267), 119.46 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (31/31), done.
+Checking connectivity... done.
+=> Compressing and cleaning up git repository
+
+=> Appending nvm source string to /home/jetadmin/.bashrc
+=> Appending bash_completion source string to /home/jetadmin/.bashrc
+=> You currently have modules installed globally with `npm`. These will no
+=> longer be linked to the active version of Node when you install a new node
+=> with `nvm`; and they may (depending on how you construct your `$PATH`)
+=> override the binaries of modules installed with `nvm`:
+
+/usr/local/lib
+├── n@2.1.7
+├── node-pre-gyp@0.10.0
+└── pm2@2.10.3
+=> If you wish to uninstall them at a later point (or re-install them under your
+=> `nvm` Nodes), you can remove them from the system Node as follows:
+
+     $ nvm use system
+          $ npm uninstall -g a_module
+
+=> Close and reopen your terminal to start using nvm or run the following to use it now:
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

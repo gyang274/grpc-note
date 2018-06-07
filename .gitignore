@@ -1,0 +1,7 @@
+# .gitignore
+
+## python
+*__pycache__/
+
+## node modules
+*node_modules/
