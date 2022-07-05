@@ -1,6 +1,6 @@
-jetadmin@q2-pfx-gpu-vm0:~$                bash install_nvm.sh
-=> Downloading nvm from git to '/home/jetadmin/.nvm'
-=> Cloning into '/home/jetadmin/.nvm'...
+$ bash install_nvm.sh
+=> Downloading nvm from git to '/home/gyang274/.nvm'
+=> Cloning into '/home/gyang274/.nvm'...
 remote: Counting objects: 267, done.
 remote: Compressing objects: 100% (242/242), done.
 remote: Total 267 (delta 31), reused 86 (delta 15), pack-reused 0
